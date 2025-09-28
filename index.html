@@ -1,0 +1,1922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - Premium Travel Experiences | Luxury Travel Agency</title>
+    <meta name="description" content="Discover extraordinary travel experiences with Wanderlust. Premium luxury travel packages, curated destinations, and personalized service for discerning travelers worldwide.">
+    <meta name="keywords" content="luxury travel, premium travel agency, curated destinations, travel packages, vacation planning, luxury hotels, exclusive experiences">
+    <meta name="author" content="Wanderlust Travel">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Wanderlust - Premium Travel Experiences">
+    <meta property="og:description" content="Discover extraordinary travel experiences with Wanderlust. Premium luxury travel packages and curated destinations worldwide.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wanderlust-travel.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wanderlust - Premium Travel Experiences">
+    <meta name="twitter:description" content="Discover extraordinary travel experiences with Wanderlust. Premium luxury travel packages and curated destinations worldwide.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TravelAgency",
+        "name": "Wanderlust",
+        "description": "Premium luxury travel agency offering curated destinations and extraordinary travel experiences worldwide.",
+        "url": "https://wanderlust-travel.com",
+        "logo": "https://wanderlust-travel.com/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-WANDER",
+            "contactType": "customer service",
+            "availableLanguage": "English"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US"
+        },
+        "sameAs": [
+            "https://facebook.com/wanderlusttravel",
+            "https://instagram.com/wanderlusttravel",
+            "https://twitter.com/wanderlusttravel"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Wanderlust</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#destinations" class="nav-link">Destinations</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text animate-fadeInLeft">
+                    <h1 class="hero-title">
+                        <span class="hero-title-main">Discover Your</span>
+                        <span class="hero-title-highlight">Perfect Escape</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Curated luxury travel experiences that transform your wanderlust into unforgettable memories. 
+                        From exotic destinations to hidden gems, we craft journeys that exceed expectations.
+                    </p>
+                    <div class="hero-features">
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>100% Secure Booking</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <span>24/7 Support</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-star"></i>
+                            <span>Premium Quality</span>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary" onclick="scrollToSection('destinations')">
+                            <span>Explore Destinations</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <button class="btn btn-outline" onclick="scrollToSection('packages-section')">
+                            <i class="fas fa-play"></i>
+                            <span>Watch Our Story</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-visual animate-fadeInRight">
+                    <div class="hero-image-container">
+                        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Travel" class="hero-main-image">
+                        <div class="hero-image-overlay"></div>
+                    </div>
+                    <div class="floating-cards">
+                        <div class="floating-card card-1">
+                            <div class="card-icon">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Flight Included</h4>
+                                <p style="color: black;">All packages include flights</p>
+                            </div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <div class="card-icon">
+                                <i class="fas fa-hotel"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>5-Star Hotels</h4>
+                                <p style="color: black;">Luxury accommodation</p>
+                            </div>
+                        </div>
+                        <div class="floating-card card-3">
+                            <div class="card-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Fine Dining</h4>
+                                <p style="color: black;">Gourmet experiences</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="150">0</div>
+                    <div class="stat-label">Destinations</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50000">0</div>
+                    <div class="stat-label">Happy Travelers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="98">0</div>
+                    <div class="stat-label">Satisfaction Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-label">Support</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll to explore</div>
+            <div class="scroll-arrow" onclick="scrollToSection('destinations')">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Map Section -->
+    <section class="interactive-map-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Explore Our Destinations</h2>
+                <p class="section-subtitle">Click on any destination to discover amazing travel experiences</p>
+            </div>
+            <div class="map-container">
+                <div class="world-map">
+                    <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="World Map" class="map-background">
+                    <div class="map-destination" data-destination="europe" style="top: 20%; left: 48%;">
+                        <div class="map-pin">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="map-tooltip">
+                            <h4>Europe</h4>
+                            <p>25+ Destinations</p>
+                            <span class="map-price">From $199</span>
+                        </div>
+                    </div>
+                    <div class="map-destination" data-destination="asia" style="top: 25%; left: 75%;">
+                        <div class="map-pin">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="map-tooltip">
+                            <h4>Asia</h4>
+                            <p>40+ Destinations</p>
+                            <span class="map-price">From $149</span>
+                        </div>
+                    </div>
+                    <div class="map-destination" data-destination="america" style="top: 25%; left: 20%;">
+                        <div class="map-pin">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="map-tooltip">
+                            <h4>Americas</h4>
+                            <p>30+ Destinations</p>
+                            <span class="map-price">From $179</span>
+                        </div>
+                    </div>
+                    <div class="map-destination" data-destination="africa" style="top: 45%; left: 52%;">
+                        <div class="map-pin">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="map-tooltip">
+                            <h4>Africa</h4>
+                            <p>20+ Destinations</p>
+                            <span class="map-price">From $299</span>
+                        </div>
+                    </div>
+                    <div class="map-destination" data-destination="oceania" style="top: 65%; left: 85%;">
+                        <div class="map-pin">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="map-tooltip">
+                            <h4>Oceania</h4>
+                            <p>15+ Destinations</p>
+                            <span class="map-price">From $399</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-stats">
+                    <div class="map-stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>150+</h3>
+                            <p>Destinations Worldwide</p>
+                        </div>
+                    </div>
+                    <div class="map-stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>50K+</h3>
+                            <p>Happy Travelers</p>
+                        </div>
+                    </div>
+                    <div class="map-stat">
+                        <div class="stat-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>4.8</h3>
+                            <p>Average Rating</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advanced Search Section -->
+    <section class="advanced-search-section">
+        <div class="container">
+            <div class="search-header">
+                <h2>Find Your Perfect Trip</h2>
+                <p>Use our advanced filters to discover your ideal travel experience</p>
+            </div>
+            <div class="advanced-search-box">
+                <div class="search-row">
+                    <div class="search-group">
+                        <label><i class="fas fa-map-marker-alt"></i> Destination</label>
+                        <select class="search-select">
+                            <option>Any Destination</option>
+                            <option>Europe</option>
+                            <option>Asia</option>
+                            <option>Americas</option>
+                            <option>Africa</option>
+                            <option>Oceania</option>
+                        </select>
+                    </div>
+                    <div class="search-group">
+                        <label><i class="fas fa-calendar-alt"></i> Travel Dates</label>
+                        <input type="date" class="search-input">
+                    </div>
+                    <div class="search-group">
+                        <label><i class="fas fa-users"></i> Travelers</label>
+                        <select class="search-select">
+                            <option>1 Traveler</option>
+                            <option>2 Travelers</option>
+                            <option>3-4 Travelers</option>
+                            <option>5+ Travelers</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="search-row">
+                    <div class="search-group">
+                        <label><i class="fas fa-dollar-sign"></i> Budget Range</label>
+                        <select class="search-select">
+                            <option>Any Budget</option>
+                            <option>Under $1,000</option>
+                            <option>$1,000 - $3,000</option>
+                            <option>$3,000 - $5,000</option>
+                            <option>$5,000+</option>
+                        </select>
+                    </div>
+                    <div class="search-group">
+                        <label><i class="fas fa-clock"></i> Trip Duration</label>
+                        <select class="search-select">
+                            <option>Any Duration</option>
+                            <option>3-5 Days</option>
+                            <option>1 Week</option>
+                            <option>2 Weeks</option>
+                            <option>3+ Weeks</option>
+                        </select>
+                    </div>
+                    <div class="search-group">
+                        <label><i class="fas fa-heart"></i> Travel Style</label>
+                        <select class="search-select">
+                            <option>Any Style</option>
+                            <option>Adventure</option>
+                            <option>Luxury</option>
+                            <option>Cultural</option>
+                            <option>Relaxation</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="search-actions">
+                    <button class="search-btn-primary">
+                        <i class="fas fa-search"></i>
+                        Search Packages
+                    </button>
+                    <button class="search-btn-secondary">
+                        <i class="fas fa-filter"></i>
+                        Advanced Filters
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather Widget Section -->
+    <section class="weather-section">
+        <div class="container">
+            <div class="weather-header">
+                <h2>Current Weather Conditions</h2>
+                <p>Check weather conditions for your dream destinations</p>
+            </div>
+            <div class="weather-grid">
+                <div class="weather-card">
+                    <div class="weather-location">
+                        <h3>Santorini, Greece</h3>
+                        <p>Perfect for travel</p>
+                    </div>
+                    <div class="weather-icon">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="weather-temp">
+                        <span class="temp">24°C</span>
+                        <span class="condition">Sunny</span>
+                    </div>
+                    <div class="weather-details">
+                        <div class="detail">
+                            <i class="fas fa-eye"></i>
+                            <span>10km visibility</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-wind"></i>
+                            <span>12 km/h</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather-card">
+                    <div class="weather-location">
+                        <h3>Bali, Indonesia</h3>
+                        <p>Great for travel</p>
+                    </div>
+                    <div class="weather-icon">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <div class="weather-temp">
+                        <span class="temp">28°C</span>
+                        <span class="condition">Partly Cloudy</span>
+                    </div>
+                    <div class="weather-details">
+                        <div class="detail">
+                            <i class="fas fa-eye"></i>
+                            <span>8km visibility</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-wind"></i>
+                            <span>8 km/h</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="weather-card">
+                    <div class="weather-location">
+                        <h3>Paris, France</h3>
+                        <p>Good for travel</p>
+                    </div>
+                    <div class="weather-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="weather-temp">
+                        <span class="temp">18°C</span>
+                        <span class="condition">Cloudy</span>
+                    </div>
+                    <div class="weather-details">
+                        <div class="detail">
+                            <i class="fas fa-eye"></i>
+                            <span>6km visibility</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-wind"></i>
+                            <span>15 km/h</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Currency Converter Section -->
+    <section class="currency-section">
+        <div class="container">
+            <div class="currency-header">
+                <h2>Currency Converter</h2>
+                <p>Get real-time exchange rates for your travel planning</p>
+            </div>
+            <div class="currency-converter">
+                <div class="converter-row">
+                    <div class="currency-group from-group">
+                        <label>From</label>
+                        <div class="currency-input-group">
+                            <select class="currency-select from-select">
+                                <option value="USD">USD - US Dollar</option>
+                                <option value="EUR">EUR - Euro</option>
+                                <option value="GBP">GBP - British Pound</option>
+                                <option value="JPY">JPY - Japanese Yen</option>
+                                <option value="CAD">CAD - Canadian Dollar</option>
+                            </select>
+                            <input type="number" class="currency-input from-input" value="1000" placeholder="Amount">
+                        </div>
+                    </div>
+                    <div class="currency-swap">
+                        <button class="swap-btn">
+                            <i class="fas fa-exchange-alt"></i>
+                        </button>
+                    </div>
+                    <div class="currency-group to-group">
+                        <label>To</label>
+                        <div class="currency-input-group">
+                            <select class="currency-select to-select">
+                                <option value="EUR">EUR - Euro</option>
+                                <option value="USD">USD - US Dollar</option>
+                                <option value="GBP">GBP - British Pound</option>
+                                <option value="JPY">JPY - Japanese Yen</option>
+                                <option value="CAD">CAD - Canadian Dollar</option>
+                            </select>
+                            <input type="number" class="currency-input to-input" value="920" placeholder="Converted Amount" readonly>
+                        </div>
+                    </div>
+                </div>
+                <div class="exchange-rate">
+                    <p class="rate-display">1 USD = 0.92 EUR</p>
+                    <span class="rate-update">Last updated: 2 minutes ago</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Search Bar -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-header">
+                <h2>Find Your Perfect Destination</h2>
+                <p>Search from thousands of amazing travel experiences worldwide</p>
+            </div>
+            <div class="search-box">
+                <div class="search-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" placeholder="Where to?" class="search-input">
+                </div>
+                <div class="search-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <input type="date" class="search-input">
+                </div>
+                <div class="search-item">
+                    <i class="fas fa-users"></i>
+                    <select class="search-input">
+                        <option>Guests</option>
+                        <option>1 Guest</option>
+                        <option>2 Guests</option>
+                        <option>3+ Guests</option>
+                    </select>
+                </div>
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                    Search
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Planning Timeline -->
+    <section class="travel-timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Your Travel Planning Journey</h2>
+                <p class="section-subtitle">Follow our step-by-step guide to plan your perfect trip</p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="timeline-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>1. Dream & Discover</h3>
+                        <p>Browse our destinations and packages to find your perfect travel experience. Use our interactive map and filters to narrow down your options.</p>
+                        <div class="timeline-features">
+                            <span><i class="fas fa-check"></i> Browse 150+ destinations</span>
+                            <span><i class="fas fa-check"></i> Use advanced filters</span>
+                            <span><i class="fas fa-check"></i> Check weather conditions</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                    <div class="timeline-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>2. Plan & Budget</h3>
+                        <p>Use our currency converter and budget calculator to plan your expenses. Get detailed cost breakdowns for your chosen package.</p>
+                        <div class="timeline-features">
+                            <span><i class="fas fa-check"></i> Currency conversion</span>
+                            <span><i class="fas fa-check"></i> Budget planning tools</span>
+                            <span><i class="fas fa-check"></i> Cost breakdowns</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                    <div class="timeline-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>3. Book & Confirm</h3>
+                        <p>Secure your booking with our easy online process. Get instant confirmation and detailed travel documents.</p>
+                        <div class="timeline-features">
+                            <span><i class="fas fa-check"></i> Secure online booking</span>
+                            <span><i class="fas fa-check"></i> Instant confirmation</span>
+                            <span><i class="fas fa-check"></i> Travel documents</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left" data-aos-delay="400">
+                    <div class="timeline-icon">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>4. Travel & Enjoy</h3>
+                        <p>Experience your dream destination with 24/7 support and expert local guides. Create unforgettable memories.</p>
+                        <div class="timeline-features">
+                            <span><i class="fas fa-check"></i> 24/7 support</span>
+                            <span><i class="fas fa-check"></i> Expert local guides</span>
+                            <span><i class="fas fa-check"></i> Unforgettable experiences</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Virtual Tours Section -->
+    <section class="virtual-tours-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Virtual Tours & 360° Experiences</h2>
+                <p class="section-subtitle">Explore destinations from the comfort of your home before you travel</p>
+            </div>
+            <div class="virtual-tours-grid">
+                <div class="virtual-tour-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Santorini Virtual Tour" loading="lazy">
+                        <div class="tour-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="tour-info">
+                                <h4>Santorini Sunset Views</h4>
+                                <p>360° Virtual Experience</p>
+                            </div>
+                        </div>
+                        <div class="tour-badge">360° Tour</div>
+                    </div>
+                </div>
+                <div class="virtual-tour-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tour-image">
+                        <img src="./assets/istockphoto-635758088-612x612.jpg" alt="Paris Virtual Tour" loading="lazy">
+                        <div class="tour-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="tour-info">
+                                <h4>Eiffel Tower Views</h4>
+                                <p>Interactive Experience</p>
+                            </div>
+                        </div>
+                        <div class="tour-badge">Interactive</div>
+                    </div>
+                </div>
+                <div class="virtual-tour-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="tour-image">
+                        <img src="./assets/Bali.webp" alt="Bali Virtual Tour" loading="lazy">
+                        <div class="tour-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="tour-info">
+                                <h4>Bali Temples</h4>
+                                <p>Cultural Journey</p>
+                            </div>
+                        </div>
+                        <div class="tour-badge">Cultural</div>
+                    </div>
+                </div>
+                <div class="virtual-tour-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tokyo Virtual Tour" loading="lazy">
+                        <div class="tour-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="tour-info">
+                                <h4>Tokyo Streets</h4>
+                                <p>Urban Exploration</p>
+                            </div>
+                        </div>
+                        <div class="tour-badge">Urban</div>
+                    </div>
+                </div>
+                <div class="virtual-tour-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Safari Virtual Tour" loading="lazy">
+                        <div class="tour-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="tour-info">
+                                <h4>African Safari</h4>
+                                <p>Wildlife Adventure</p>
+                            </div>
+                        </div>
+                        <div class="tour-badge">Adventure</div>
+                    </div>
+                </div>
+                <div class="virtual-tour-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="tour-image">
+                        <img src="./assets/swiss.jpg" alt="Swiss Alps Virtual Tour" loading="lazy">
+                        <div class="tour-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                            <div class="tour-info">
+                                <h4>Swiss Alps</h4>
+                                <p>Mountain Majesty</p>
+                            </div>
+                        </div>
+                        <div class="tour-badge">Scenic</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Chat Support -->
+    <div class="live-chat-widget">
+        <div class="chat-toggle">
+            <i class="fas fa-comments"></i>
+            <span>Need Help?</span>
+        </div>
+        <div class="chat-window">
+            <div class="chat-header">
+                <h4>Travel Assistant</h4>
+                <button class="chat-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="chat-messages">
+                <div class="message bot-message">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Hi! I'm your AI travel assistant. How can I help you plan your perfect trip today?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Ask me anything about travel...">
+                <button class="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Social Media Integration -->
+    <section class="social-section">
+        <div class="container">
+            <div class="social-header">
+                <h2>Follow Our Travel Adventures</h2>
+                <p>Get inspired by real travel stories and stunning photos from our community</p>
+            </div>
+            <div class="social-grid">
+                <div class="social-post" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Travel Photo" loading="lazy">
+                    <div class="social-overlay">
+                        <div class="social-stats">
+                            <span><i class="fas fa-heart"></i> 2.3K</span>
+                            <span><i class="fas fa-comment"></i> 89</span>
+                        </div>
+                        <div class="social-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Santorini, Greece</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-post" data-aos="fade-up" data-aos-delay="200">
+                    <img src="./assets/download.jfif" alt="Travel Photo" loading="lazy">
+                    <div class="social-overlay">
+                        <div class="social-stats">
+                            <span><i class="fas fa-heart"></i> 1.8K</span>
+                            <span><i class="fas fa-comment"></i> 67</span>
+                        </div>
+                        <div class="social-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bali, Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-post" data-aos="fade-up" data-aos-delay="300">
+                    <img src="./assets/istockphoto-635758088-612x612.jpg" alt="Travel Photo" loading="lazy">
+                    <div class="social-overlay">
+                        <div class="social-stats">
+                            <span><i class="fas fa-heart"></i> 3.1K</span>
+                            <span><i class="fas fa-comment"></i> 124</span>
+                        </div>
+                        <div class="social-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Paris, France</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-post" data-aos="fade-up" data-aos-delay="400">
+                    <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Travel Photo" loading="lazy">
+                    <div class="social-overlay">
+                        <div class="social-stats">
+                            <span><i class="fas fa-heart"></i> 2.7K</span>
+                            <span><i class="fas fa-comment"></i> 95</span>
+                        </div>
+                        <div class="social-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Tokyo, Japan</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-post" data-aos="fade-up" data-aos-delay="500">
+                    <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Travel Photo" loading="lazy">
+                    <div class="social-overlay">
+                        <div class="social-stats">
+                            <span><i class="fas fa-heart"></i> 1.5K</span>
+                            <span><i class="fas fa-comment"></i> 43</span>
+                        </div>
+                        <div class="social-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Serengeti, Tanzania</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-post" data-aos="fade-up" data-aos-delay="200">
+                    <img src="./assets/mumbai.jpg" alt="Travel Photo" loading="lazy">
+                    <div class="social-overlay">
+                        <div class="social-stats">
+                            <span><i class="fas fa-heart"></i> 1.8K</span>
+                            <span><i class="fas fa-comment"></i> 67</span>
+                        </div>
+                        <div class="social-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Mumbai, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-post" data-aos="fade-up" data-aos-delay="200">
+                    <img src="./assets/kashmir.jpg" alt="Travel Photo" loading="lazy">
+                    <div class="social-overlay">
+                        <div class="social-stats">
+                            <span><i class="fas fa-heart"></i> 1.8K</span>
+                            <span><i class="fas fa-comment"></i> 67</span>
+                        </div>
+                        <div class="social-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>kashmir, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-post" data-aos="fade-up" data-aos-delay="600">
+                    <img src="./assets/swiss.jpg" alt="Travel Photo" loading="lazy">
+                    <div class="social-overlay">
+                        <div class="social-stats">
+                            <span><i class="fas fa-heart"></i> 2.1K</span>
+                            <span><i class="fas fa-comment"></i> 78</span>
+                        </div>
+                        <div class="social-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Swiss Alps, Switzerland</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-cta">
+                <button class="social-btn">
+                    <i class="fab fa-instagram"></i>
+                    Follow @WanderlustTravel
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Curated Destinations</h2>
+                <p class="section-subtitle">Handpicked destinations that offer extraordinary experiences and unforgettable memories</p>
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-filter="all">All Destinations</button>
+                    <button class="filter-btn" data-filter="europe">European Classics</button>
+                    <button class="filter-btn" data-filter="asia">Asian Wonders</button>
+                    <button class="filter-btn" data-filter="america">Americas Adventure</button>
+                    <button class="filter-btn" data-filter="africa">African Safari</button>
+                </div>
+            </div>
+            <div class="destinations-grid">
+                <div class="destination-card hover-lift" data-category="europe" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Santorini" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Santorini</h3>
+                                <p>Greece • Cyclades Islands</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.9</span>
+                                        <span class="rating-count">(2,847 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $299/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-sun"></i> 300+ sunny days/year</span>
+                                        <span><i class="fas fa-camera"></i> Iconic sunset views</span>
+                                        <span><i class="fas fa-wine-glass"></i> Local wineries</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Best Seller</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="asia" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-image">
+                        <img src="./assets/Bali.webp" alt="Bali" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Bali</h3>
+                                <p>Indonesia • Island of Gods</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.8</span>
+                                        <span class="rating-count">(3,421 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $199/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-leaf"></i> Tropical rainforests</span>
+                                        <span><i class="fas fa-om"></i> Spiritual temples</span>
+                                        <span><i class="fas fa-utensils"></i> World-class cuisine</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Trending</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="europe" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-image">
+                        <img src="./assets/download.jfif" alt="Paris" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Paris</h3>
+                                <p>France • City of Light</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.9</span>
+                                        <span class="rating-count">(3,156 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $399/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-landmark"></i> Historic monuments</span>
+                                        <span><i class="fas fa-utensils"></i> World-class cuisine</span>
+                                        <span><i class="fas fa-heart"></i> Romantic atmosphere</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Premium</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="asia" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tokyo" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Tokyo</h3>
+                                <p>Japan • Modern Metropolis</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.7</span>
+                                        <span class="rating-count">(2,891 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $349/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-city"></i> Modern architecture</span>
+                                        <span><i class="fas fa-fish"></i> Fresh sushi</span>
+                                        <span><i class="fas fa-train"></i> Efficient transport</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">New</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="asia" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dubai" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Dubai</h3>
+                                <p>UAE • Luxury Destination</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.8</span>
+                                        <span class="rating-count">(2,234 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $599/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-building"></i> Skyscrapers</span>
+                                        <span><i class="fas fa-shopping-bag"></i> Luxury shopping</span>
+                                        <span><i class="fas fa-sun"></i> Desert adventures</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Luxury</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="america" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="New York" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>New York</h3>
+                                <p>USA • The Big Apple</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.6</span>
+                                        <span class="rating-count">(4,123 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $449/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-theater-masks"></i> Broadway shows</span>
+                                        <span><i class="fas fa-pizza-slice"></i> Famous food scene</span>
+                                        <span><i class="fas fa-landmark"></i> Iconic landmarks</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Popular</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="africa" data-aos="fade-up" data-aos-delay="700">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Safari" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Serengeti Safari</h3>
+                                <p>Tanzania • Wildlife Adventure</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.9</span>
+                                        <span class="rating-count">(1,456 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $799/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-lion"></i> Big Five wildlife</span>
+                                        <span><i class="fas fa-camera"></i> Photography tours</span>
+                                        <span><i class="fas fa-tent"></i> Luxury lodges</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Adventure</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="europe" data-aos="fade-up" data-aos-delay="800">
+                    <div class="card-image">
+                        <img src="./assets/swiss.jpg" alt="Switzerland" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Swiss Alps</h3>
+                                <p>Switzerland • Mountain Paradise</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.8</span>
+                                        <span class="rating-count">(2,678 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $499/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-mountain"></i> Alpine peaks</span>
+                                        <span><i class="fas fa-skiing"></i> Ski resorts</span>
+                                        <span><i class="fas fa-train"></i> Scenic railways</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Scenic</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="europe" data-aos="fade-up" data-aos-delay="900">
+                    <div class="card-image">
+                        <img src="./assets/rome.jpg" alt="Rome" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Rome</h3>
+                                <p>Italy • Eternal City</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.9</span>
+                                        <span class="rating-count">(3,789 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $349/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-monument"></i> Ancient history</span>
+                                        <span><i class="fas fa-pizza-slice"></i> Authentic cuisine</span>
+                                        <span><i class="fas fa-church"></i> Vatican City</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Historic</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="europe" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1513639776629-7b61b0ac49cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Barcelona" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Barcelona</h3>
+                                <p>Spain • Cultural Capital</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.7</span>
+                                        <span class="rating-count">(2,456 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $299/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-palette"></i> Gaudí architecture</span>
+                                        <span><i class="fas fa-futbol"></i> FC Barcelona</span>
+                                        <span><i class="fas fa-utensils"></i> Tapas culture</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Cultural</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="asia" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bangkok" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Bangkok</h3>
+                                <p>Thailand • City of Angels</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.6</span>
+                                        <span class="rating-count">(3,234 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $199/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-temple-buddhist"></i> Ancient temples</span>
+                                        <span><i class="fas fa-utensils"></i> Street food</span>
+                                        <span><i class="fas fa-shopping-cart"></i> Floating markets</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Vibrant</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="asia" data-aos="fade-up" data-aos-delay="1200">
+                    <div class="card-image">
+                        <img src="./assets/istockphoto-635758088-612x612.jpg" alt="Singapore" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Singapore</h3>
+                                <p>Singapore • Garden City</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.8</span>
+                                        <span class="rating-count">(2,567 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $399/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-building"></i> Modern skyline</span>
+                                        <span><i class="fas fa-leaf"></i> Green spaces</span>
+                                        <span><i class="fas fa-utensils"></i> Diverse cuisine</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Modern</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="asia" data-aos="fade-up" data-aos-delay="1300">
+                    <div class="card-image">
+                        <img src="./assets/mumbai.jpg" alt="Seoul" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Seoul</h3>
+                                <p>South Korea • Dynamic Capital</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.7</span>
+                                        <span class="rating-count">(2,123 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $279/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-music"></i> K-Pop culture</span>
+                                        <span><i class="fas fa-utensils"></i> Korean cuisine</span>
+                                        <span><i class="fas fa-city"></i> Modern & traditional</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Trending</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="america" data-aos="fade-up" data-aos-delay="1400">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Los Angeles" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Los Angeles</h3>
+                                <p>USA • Entertainment Capital</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.5</span>
+                                        <span class="rating-count">(3,891 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $399/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-film"></i> Hollywood</span>
+                                        <span><i class="fas fa-sun"></i> Perfect weather</span>
+                                        <span><i class="fas fa-umbrella-beach"></i> Beautiful beaches</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Entertainment</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="america" data-aos="fade-up" data-aos-delay="1500">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Toronto" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Toronto</h3>
+                                <p>Canada • Multicultural Hub</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.6</span>
+                                        <span class="rating-count">(2,345 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $299/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-users"></i> Diverse culture</span>
+                                        <span><i class="fas fa-building"></i> CN Tower</span>
+                                        <span><i class="fas fa-utensils"></i> Food scene</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Multicultural</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="america" data-aos="fade-up" data-aos-delay="1600">
+                    <div class="card-image">
+                        <img src="./assets/kashmir.jpg" alt="Rio de Janeiro" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Rio de Janeiro</h3>
+                                <p>Brazil • Marvelous City</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.8</span>
+                                        <span class="rating-count">(2,678 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $249/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-umbrella-beach"></i> Copacabana Beach</span>
+                                        <span><i class="fas fa-mountain"></i> Christ the Redeemer</span>
+                                        <span><i class="fas fa-music"></i> Samba culture</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Festive</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="africa" data-aos="fade-up" data-aos-delay="1700">
+                    <div class="card-image">
+                        <img src="./assets/download.jfif" alt="Cape Town" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Cape Town</h3>
+                                <p>South Africa • Mother City</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.9</span>
+                                        <span class="rating-count">(1,789 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $199/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-mountain"></i> Table Mountain</span>
+                                        <span><i class="fas fa-wine-glass"></i> Wine regions</span>
+                                        <span><i class="fas fa-umbrella-beach"></i> Beautiful coast</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Stunning</div>
+                    </div>
+                </div>
+                <div class="destination-card hover-lift" data-category="africa" data-aos="fade-up" data-aos-delay="1800">
+                    <div class="card-image">
+                        <img src="./assets/rome.jpg" alt="Marrakech" loading="lazy">
+                        <div class="card-overlay">
+                            <div class="card-content">
+                                <h3>Marrakech</h3>
+                                <p>Morocco • Red City</p>
+                                <div class="card-details">
+                                    <div class="card-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.7</span>
+                                        <span class="rating-count">(1,456 reviews)</span>
+                                    </div>
+                                    <div class="card-price">From $149/night</div>
+                                    <div class="card-features">
+                                        <span><i class="fas fa-shopping-bag"></i> Souks & markets</span>
+                                        <span><i class="fas fa-mosque"></i> Islamic architecture</span>
+                                        <span><i class="fas fa-mountain"></i> Atlas Mountains</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-badge">Exotic</div>
+                    </div>
+                </div>
+            </div>
+            <div class="load-more-container">
+                <button class="load-more-btn">Load More Destinations</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-number" data-target="50000">0</div>
+                    <div class="stat-label">Happy Travelers</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-number" data-target="150">0</div>
+                    <div class="stat-label">Destinations</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-number" data-target="24">0</div>
+                    <div class="stat-label">Hours Support</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-number" data-target="98">0</div>
+                    <div class="stat-label">% Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Packages Section -->
+    <section class="packages-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Exclusive Travel Packages</h2>
+                <p class="section-subtitle">Curated experiences for every type of traveler</p>
+            </div>
+            <div class="packages-grid">
+                <div class="package-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Romantic Getaway" loading="lazy">
+                        <div class="package-badge">Romantic</div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Romantic Europe</h3>
+                        <p>10 days in the Maldives with overwater bungalows</p>
+                        <div class="package-features">
+                            <span><i class="fas fa-check"></i> 5-Star Luxury Hotels</span>
+                            <span><i class="fas fa-check"></i> Travel Insurance</span>
+                            <span><i class="fas fa-check"></i> 24/7 Concierge Service</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="price">$4,999</span>
+                            <span class="duration">per couple</span>
+                            <span class="original-price">$6,499</span>
+                        </div>
+                        <button class="package-btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="package-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Adventure Safari" loading="lazy">
+                        <div class="package-badge">Adventure</div>
+                    </div>
+                    <div class="package-content">
+                        <h3>African Safari Adventure</h3>
+                        <p>10 days exploring Kenya's wildlife and landscapes</p>
+                        <div class="package-features">
+                            <span><i class="fas fa-check"></i> Game Drives</span>
+                            <span><i class="fas fa-check"></i> Luxury Lodges</span>
+                            <span><i class="fas fa-check"></i> Expert Guides</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="price">$4,499</span>
+                            <span class="duration">per person</span>
+                        </div>
+                        <button class="package-btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="package-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="package-image">
+                        <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cultural Journey" loading="lazy">
+                        <div class="package-badge">Cultural</div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Asian Cultural Journey</h3>
+                        <p>14 days discovering Japan, Thailand, and Vietnam</p>
+                        <div class="package-features">
+                            <span><i class="fas fa-check"></i> Temple Visits</span>
+                            <span><i class="fas fa-check"></i> Local Experiences</span>
+                            <span><i class="fas fa-check"></i> Cultural Tours</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="price">$3,299</span>
+                            <span class="duration">per person</span>
+                        </div>
+                        <button class="package-btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="package-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="package-image">
+                        <img src="./assets/istockphoto-635758088-612x612.jpg" alt="Luxury European Tour" loading="lazy">
+                        <div class="package-badge">Luxury</div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Luxury European Grand Tour</h3>
+                        <p>21 days exploring Europe's most prestigious destinations</p>
+                        <div class="package-features">
+                            <span><i class="fas fa-check"></i> 5-Star Hotels</span>
+                            <span><i class="fas fa-check"></i> Private Tours</span>
+                            <span><i class="fas fa-check"></i> Michelin Dining</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="price">$8,999</span>
+                            <span class="duration">per person</span>
+                        </div>
+                        <button class="package-btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="package-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="package-image">
+                        <img src="./assets/rome.jpg" alt="Tropical Paradise" loading="lazy">
+                        <div class="package-badge">Beach</div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Tropical Paradise Escape</h3>
+                        <p>10 days in the Maldives with overwater bungalows</p>
+                        <div class="package-features">
+                            <span><i class="fas fa-check"></i> Overwater Bungalows</span>
+                            <span><i class="fas fa-check"></i> Water Sports</span>
+                            <span><i class="fas fa-check"></i> Spa Treatments</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="price">$4,599</span>
+                            <span class="duration">per person</span>
+                        </div>
+                        <button class="package-btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="package-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="package-image">
+                        <img src="./assets/mumbai.jpg" alt="Mountain Adventure" loading="lazy">
+                        <div class="package-badge">Adventure</div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Swiss Alpsine Adventures</h3>
+                        <p>7 days of hiking, skiing, and mountain experiences</p>
+                        <div class="package-features">
+                            <span><i class="fas fa-check"></i> Mountain Hiking</span>
+                            <span><i class="fas fa-check"></i> Ski Lessons</span>
+                            <span><i class="fas fa-check"></i> Alpine Lodges</span>
+                        </div>
+                        <div class="package-price">
+                            <span class="price">$2,799</span>
+                            <span class="duration">per person</span>
+                        </div>
+                        <button class="package-btn">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Premium Travel Services</h2>
+                <p class="section-subtitle">Comprehensive travel solutions designed to elevate your journey from planning to return</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card hover-lift" data-aos="fade-right" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Flight Booking</h3>
+                    <p>Find the best deals on flights to your dream destinations with our 24/7 booking service</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Best Price Guarantee</span>
+                        <span><i class="fas fa-check"></i> 24/7 Support</span>
+                        <span><i class="fas fa-check"></i> Flexible Cancellation</span>
+                    </div>
+                    <div class="service-price">From $299</div>
+                </div>
+                <div class="service-card hover-lift" data-aos="fade-right" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3>Hotel Reservations</h3>
+                    <p>Luxury accommodations at unbeatable prices with exclusive partner rates</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> 5-Star Properties</span>
+                        <span><i class="fas fa-check"></i> Exclusive Rates</span>
+                        <span><i class="fas fa-check"></i> Free Upgrades</span>
+                    </div>
+                    <div class="service-price">From $199/night</div>
+                </div>
+                <div class="service-card hover-lift" data-aos="fade-right" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Car Rental</h3>
+                    <p>Explore your destination with our premium car rental service and local expertise</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Premium Vehicles</span>
+                        <span><i class="fas fa-check"></i> GPS Navigation</span>
+                        <span><i class="fas fa-check"></i> Insurance Included</span>
+                    </div>
+                    <div class="service-price">From $49/day</div>
+                </div>
+                <div class="service-card hover-lift" data-aos="fade-right" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-map"></i>
+                    </div>
+                    <h3>Travel Guide</h3>
+                    <p>Expert local guides for an authentic experience and insider knowledge</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Local Experts</span>
+                        <span><i class="fas fa-check"></i> Custom Itineraries</span>
+                        <span><i class="fas fa-check"></i> Cultural Insights</span>
+                    </div>
+                    <div class="service-price">From $99/day</div>
+                </div>
+                <div class="service-card hover-lift" data-aos="fade-right" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Travel Insurance</h3>
+                    <p>Comprehensive coverage for your peace of mind during your journey</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Medical Coverage</span>
+                        <span><i class="fas fa-check"></i> Trip Cancellation</span>
+                        <span><i class="fas fa-check"></i> 24/7 Support</span>
+                    </div>
+                    <div class="service-price">From $49/trip</div>
+                </div>
+                <div class="service-card hover-lift" data-aos="fade-right" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Dining Reservations</h3>
+                    <p>Secure reservations at the world's finest restaurants and local gems</p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Michelin Restaurants</span>
+                        <span><i class="fas fa-check"></i> Local Cuisine</span>
+                        <span><i class="fas fa-check"></i> Special Occasions</span>
+                    </div>
+                    <div class="service-price">From $25/reservation</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+    <div class="container">
+        <div class="section-header">
+        <h2 class="section-title">What Our Travelers Say</h2>
+        <p class="section-subtitle">Real stories from our global community</p>
+        </div>
+        <div class="testimonials-slider">
+        <div class="testimonial-card featured">
+            <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"Wanderlust turned my honeymoon into a fairy tale. Every detail was flawless!"</p>
+            <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah">
+            <div class="author-info">
+                <h4>Sarah Thompson</h4>
+                <span>Bali Escape</span>
+            </div>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>"Our family trip to Paris was seamless. The guides were knowledgeable and friendly."</p>
+            <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/men/35.jpg" alt="James">
+            <div class="author-info">
+                <h4>James Parker</h4>
+                <span>Paris City Lights</span>
+            </div>
+            </div>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"From booking to arrival, the service was exceptional. Highly recommend Wanderlust!"</p>
+            <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Maria">
+            <div class="author-info">
+                <h4>Maria Lopez</h4>
+                <span>Greek Islands</span>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+    <div class="container">
+        <div class="section-header">
+        <h2 class="section-title">Travel Stories & Guides</h2>
+        <p class="section-subtitle">Get inspired by our latest articles and tips</p>
+        </div>
+        <div class="blog-grid">
+        <div class="blog-card">
+            <div class="blog-image">
+            <img src="./assets/download.jfif" alt="Santorini Blog">
+            <span class="blog-category">Luxury</span>
+            </div>
+            <div class="blog-content">
+            <h3>Top 10 Luxury Resorts in Santorini</h3>
+            <p>Experience the ultimate in relaxation and luxury with breathtaking views.</p>
+            <div class="blog-meta">
+                <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Author">
+                <span>By John | 5 min read</span>
+            </div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Bali Blog">
+            <span class="blog-category">Adventure</span>
+            </div>
+            <div class="blog-content">
+            <h3>Exploring Hidden Beaches of Bali</h3>
+            <p>Discover secluded gems away from the crowds in this tropical paradise.</p>
+            <div class="blog-meta">
+                <img src="https://randomuser.me/api/portraits/women/18.jpg" alt="Author">
+                <span>By Emma | 7 min read</span>
+            </div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <div class="blog-image">
+            <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=800&q=80" alt="Paris Blog">
+            <span class="blog-category">Culture</span>
+            </div>
+            <div class="blog-content">
+            <h3>Paris: A Cultural Journey</h3>
+            <p>Unveil the art, cuisine, and romance of the City of Lights.</p>
+            <div class="blog-meta">
+                <img src="https://randomuser.me/api/portraits/men/24.jpg" alt="Author">
+                <span>By Alex | 6 min read</span>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="blog-actions">
+        <button class="btn btn-primary load-more-btn">
+            <i class="fas fa-sync-alt"></i> Load More Articles
+        </button>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know about traveling with us</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>What is included in your travel packages?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our comprehensive travel packages include:</p>
+                        <ul>
+                            <li><strong>Accommodation:</strong> Carefully selected hotels, resorts, or boutique properties</li>
+                            <li><strong>Transportation:</strong> Airport transfers, inter-city transport, and local transportation</li>
+                            <li><strong>Guided Tours:</strong> Professional local guides and entrance fees to attractions</li>
+                            <li><strong>Meals:</strong> Breakfast daily, plus selected lunches and dinners as specified</li>
+                            <li><strong>Activities:</strong> Pre-planned experiences and excursions</li>
+                            <li><strong>Support:</strong> 24/7 customer service and emergency assistance</li>
+                            <li><strong>Insurance:</strong> Basic travel insurance (upgrade options available)</li>
+                        </ul>
+                        <p>Some premium packages also include international flights, travel insurance, and additional perks like spa treatments or exclusive experiences.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>Can I customize my travel itinerary?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer flexible customization options for all our packages. Our travel experts will work with you to create the perfect itinerary that matches your preferences and budget.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>What is your cancellation policy?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer flexible cancellation policies. You can cancel up to 30 days before departure for a full refund, 15-30 days for 75% refund, and 7-15 days for 50% refund.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq-question">
+                        <h3>Do you provide travel insurance?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer comprehensive travel insurance options. Our insurance covers medical emergencies, trip cancellations, lost luggage, and other travel-related incidents.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="faq-question">
+                        <h3>How do I book a trip?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Booking is easy! Simply browse our packages, select your preferred dates, fill out the booking form, and make payment. Our team will confirm your booking within 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Get in touch with our travel experts for personalized assistance</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item" data-aos="fade-right" data-aos-delay="100">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Visit Our Office</h3>
+                            <p>123 Travel Street, Adventure City<br>AC 12345, United States</p>
+                            <span class="contact-hours">Mon-Fri: 9AM-6PM</span>
+                        </div>
+                    </div>
+                    <div class="contact-item" data-aos="fade-right" data-aos-delay="200">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Call Us</h3>
+                            <p>+1 (555) 123-4567</p>
+                            <span class="contact-hours">24/7 Emergency Support</span>
+                        </div>
+                    </div>
+                    <div class="contact-item" data-aos="fade-right" data-aos-delay="300">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email Us</h3>
+                            <p>info@wanderlust.com</p>
+                            <span class="contact-hours">Response within 2 hours</span>
+                        </div>
+                    </div>
+                    <div class="contact-item" data-aos="fade-right" data-aos-delay="400">
+                        <div class="contact-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Live Chat</h3>
+                            <p>Available 24/7</p>
+                            <span class="contact-hours">Instant responses</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container" data-aos="fade-left" data-aos-delay="200">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="booking">Booking Inquiry</option>
+                                <option value="support">Customer Support</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help you..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Get the latest travel deals and destination updates</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" class="newsletter-input">
+                    <button class="newsletter-btn">Subscribe</button>
+                </div>
+                <div class="newsletter-benefits">
+                    <div class="benefit-item">
+                        <i class="fas fa-gift"></i>
+                        <span>Exclusive Deals</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-bell"></i>
+                        <span>Early Access</span>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-star"></i>
+                        <span>Premium Content</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Wanderlust</h3>
+                    <p>Creating unforgettable travel experiences around the world.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Flight Booking</a></li>
+                        <li><a href="#">Hotel Reservations</a></li>
+                        <li><a href="#">Car Rental</a></li>
+                        <li><a href="#">Travel Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@wanderlust.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Travel St, Adventure City</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wanderlust. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
